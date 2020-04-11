@@ -659,7 +659,7 @@ def start(target, counter, delay, ch, cc):
     failed = 0
     requested = 0
     success = int(requested) - int(failed)
-    bombs = int(counter) + 1
+    attack = int(counter) + 1
     while success < (int(attack)):
         os.system('clear')
         banner()
@@ -838,7 +838,7 @@ if not cc.strip() == "91":
     start(pn, nm, dl, ch, str(cc))
     exit()
 ch = [i for i in range(17)]
-cbomb = False
+cattack = False
 if pn.strip() == '' or dl <= 0 or nm < 0:
     print('\n\n\tSeems Like You Have Given Wrong Inputs...')
     input('\n\t\tPress Enter To Exit...')
