@@ -871,7 +871,7 @@ if nm == 0:
     print("              This attack crated By SNIPER LB !!        ")
     print("==================================================================")
     print(W)
-     input('\n\nPress CTRL+Z To STOP attack... \nPress Enter To Start attack...\n')
+    input('\n\nPress CTRL+Z To STOP attack... \nPress Enter To Start attack...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
     print("\n\nStarting attk....")
     for i in range(nt):
