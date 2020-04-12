@@ -1,4 +1,6 @@
 # SNIPER-attack
+this tool was made by
+FAY2O LB / SNIPER LB
 SMS attack 
 <h1 align="center">SNIPER-attak v1.7b</h1>
 <p align="center">An open-source SMS/call bomber for Linux And Termux.</p><br>
